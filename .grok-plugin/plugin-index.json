@@ -406,8 +406,8 @@
       }
     },
     "magicinterview": {
-      "sha": "c194b4a47d482f2f5fd3f89c75c7a65a09979d05",
-      "version": "1.1.3",
+      "sha": "0ea0301a8b3803b81b3abc4c5e5cecd8bc979df5",
+      "version": "1.2.0",
       "components": {
         "mcpServers": [
           {
