@@ -1,0 +1,83 @@
+{
+  "name": "sami-spain-assistants",
+  "owner": {
+    "name": "Sami Halawa",
+    "email": "sami@samihalawa.com"
+  },
+  "metadata": {
+    "description": "Seven independent Spanish official-data skills plugins by Sami Halawa.",
+    "version": "0.1.2"
+  },
+  "plugins": [
+    {
+      "name": "licita-espana",
+      "source": {
+        "source": "github",
+        "repo": "samihalawa/licita-espana",
+        "ref": "v0.1.2",
+        "sha": "e4fa9b5ee489881a709a2c4b3af993518b44ab4e"
+      },
+      "description": "Turn a Spanish public tender into a traceable opportunity brief and a clause-by-clause qualification checklist."
+    },
+    {
+      "name": "ayudas-espana",
+      "source": {
+        "source": "github",
+        "repo": "samihalawa/ayudas-espana",
+        "ref": "v0.1.2",
+        "sha": "b8425e73e81e3112b7d23a44f54eb9dbb7d3e596"
+      },
+      "description": "Find Spanish grant calls and separate potentially relevant funding from closed calls, direct awards and unsupported eligibility claims."
+    },
+    {
+      "name": "boe-impact",
+      "source": {
+        "source": "github",
+        "repo": "samihalawa/boe-impact",
+        "ref": "v0.1.2",
+        "sha": "c4b4678081323fe4842de95ae56562fd5730213f"
+      },
+      "description": "Show what changed in a Spanish legal text, with article-level source evidence and clearly separated practical implications."
+    },
+    {
+      "name": "borme-intelligence",
+      "source": {
+        "source": "github",
+        "repo": "samihalawa/borme-intelligence",
+        "ref": "v0.1.2",
+        "sha": "7733d26a49d6e1c57a3b8c11f57a5da680ba2ac7"
+      },
+      "description": "Find a company’s published registry acts in a specified BORME issue and turn them into a source-linked corporate-events brief."
+    },
+    {
+      "name": "catastro-pro",
+      "source": {
+        "source": "github",
+        "repo": "samihalawa/catastro-pro",
+        "ref": "v0.1.2",
+        "sha": "d399f39246d74409c555f0c05b079ebf66831c39"
+      },
+      "description": "Turn a cadastral reference into a clear non-protected property fact sheet without confusing Catastro with title or planning permission."
+    },
+    {
+      "name": "ine-evidence",
+      "source": {
+        "source": "github",
+        "repo": "samihalawa/ine-evidence",
+        "ref": "v0.1.2",
+        "sha": "6399aec621ccf8ebee9fac58e6058820311fb4fc"
+      },
+      "description": "Find the correct INE series and answer with its values, definitions, dates and limitations intact."
+    },
+    {
+      "name": "spain-open-data",
+      "source": {
+        "source": "github",
+        "repo": "samihalawa/spain-open-data",
+        "ref": "v0.1.2",
+        "sha": "3e4fe303180a582a0dca1bf1c703c1cc27ed3e6d"
+      },
+      "description": "Find a reusable Spanish public dataset and explain its publisher, licence, freshness and practical download options."
+    }
+  ]
+}
