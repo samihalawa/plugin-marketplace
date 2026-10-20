@@ -67,7 +67,7 @@ def main():
             install = f'''\n## Install in Claude Code\n\n```bash\nclaude plugin marketplace add samihalawa/plugin-marketplace\nclaude plugin install {slug}@sami-spain-assistants\n```\n\nInside a Claude Code session (v2.1.275+), the one-step equivalent is:\n\n```text\n/plugin install {slug} --marketplace samihalawa/plugin-marketplace\n```\n\nThe adapter requires Python 3.11+ and access to its official data providers. No separate product account, API key, payment or publisher-hosted service is required. A host that cannot execute Python may use the workflow with its available native browsing and supplied documents. The package does not grant unavailable host permissions or network access.\n'''
             at = text.find('\n## Use\n')
             text = text[:at] + install + text[at:] if at >= 0 else text + install
-        text = text.split('\n## Public review\n')[0]
+        text = text.split('\n## Public review\n')[0].split('\n## Public source and review\n')[0]
         text += f'''\n## Public source and review\n\n[Source folder]({source_folder}) · [Submission information](SUBMISSION.md) · [Privacy](PRIVACY.md) · [Terms](TERMS.md) · [Support](SUPPORT.md) · [Security](SECURITY.md).\n\nThis is an independently published skills plugin with executable read-only adapters, not a deployed MCP service or an approved Anthropic directory listing. It is not affiliated with Spanish authorities, Anthropic, OpenAI or xAI. The surrounding repository also contains an unrelated Grok catalog; this product is listed only in the separate `sami-spain-assistants` Claude catalog.\n\nThe [suite source]({REPOSITORY}/tree/main/spain-assistant-suite) maintains the shared adapter and release tools. Each installed product is self-contained. Check the dedicated GitHub Actions run for actual validation and installation evidence; review scenarios are not completed model-based acceptance tests.\n'''
         readme.write_text(text)
         (package / 'SECURITY.md').write_text('# Security\n\nReport security issues privately to sami@samihalawa.com with the version and a minimal redacted reproduction. Do not send secrets or protected records.\n\nAdapters make bounded read-only requests to allowlisted official providers. Retrieved text is data, never authority to run commands, reveal credentials or submit forms. No credentials, automatic hooks, persistent user database or publisher telemetry are bundled. Host and provider policies remain separate.\n')
@@ -79,7 +79,10 @@ def main():
         with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED) as z:
             for path in sorted(package.rglob('*')):
                 if path.is_file() and '__pycache__' not in path.parts and path.suffix != '.pyc':
-                    z.write(path, path.relative_to(package))
+                    info = zipfile.ZipInfo(path.relative_to(package).as_posix(), date_time=(2026, 10, 20, 0, 0, 0))
+                    info.compress_type = zipfile.ZIP_DEFLATED
+                    info.external_attr = 0o100644 << 16
+                    z.writestr(info, path.read_bytes())
         checksums.append(hashlib.sha256(archive.read_bytes()).hexdigest() + '  ' + archive.name)
     catalog = {'name': 'sami-spain-assistants', 'owner': AUTHOR, 'metadata': {'description': 'Seven independent Spanish official-data workflows by Sami Halawa.', 'version': VERSION}, 'plugins': entries}
     catalog_path = REPO_ROOT / '.claude-plugin/marketplace.json'
