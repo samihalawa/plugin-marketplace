@@ -1,0 +1,156 @@
+{
+  "checked_at": "2026-10-20T15:53:23.406212+00:00",
+  "publisher": "Sami Halawa",
+  "public_repositories": 7,
+  "strict_plugin_validations_passed": 7,
+  "strict_own_marketplace_validations_passed": 7,
+  "fresh_individual_installs_passed": 7,
+  "fresh_shared_catalog_installs_passed": 7,
+  "public_policy_and_documentation_urls_verified": 28,
+  "live_adapter_tests_passed": 16,
+  "live_adapter_tests_total": 16,
+  "version": "0.1.2",
+  "ci_state": "Templates only: workflow-write scope is unavailable. No CI runs claimed.",
+  "directory_submission_state": "Not submitted; public repositories and review materials are prepared. Anthropic portal checks and approval are separate.",
+  "scope": "Package validation, source-provider smoke tests, anonymous installation and component discovery; not model-based user acceptance, repeat use or revenue.",
+  "products": [
+    {
+      "name": "licita-espana",
+      "version": "0.1.2",
+      "repository": "https://github.com/samihalawa/licita-espana",
+      "strict_manifest_validation": "passed",
+      "fresh_anonymous_install": "passed",
+      "policy_urls_verified": 4,
+      "live_adapter_tests_passed": 1,
+      "live_adapter_tests_total": 1,
+      "source_release_commit": "e4fa9b5ee489881a709a2c4b3af993518b44ab4e",
+      "verification_commit": "346bf04e809bdcd63b552be40062d0b896bb4b62",
+      "installation_evidence": "https://github.com/samihalawa/licita-espana/blob/main/evidence/public-installation.json"
+    },
+    {
+      "name": "ayudas-espana",
+      "version": "0.1.2",
+      "repository": "https://github.com/samihalawa/ayudas-espana",
+      "strict_manifest_validation": "passed",
+      "fresh_anonymous_install": "passed",
+      "policy_urls_verified": 4,
+      "live_adapter_tests_passed": 2,
+      "live_adapter_tests_total": 2,
+      "source_release_commit": "b8425e73e81e3112b7d23a44f54eb9dbb7d3e596",
+      "verification_commit": "196576c858b3a18dad0a0d802ac0b10023bcdfdb",
+      "installation_evidence": "https://github.com/samihalawa/ayudas-espana/blob/main/evidence/public-installation.json"
+    },
+    {
+      "name": "boe-impact",
+      "version": "0.1.2",
+      "repository": "https://github.com/samihalawa/boe-impact",
+      "strict_manifest_validation": "passed",
+      "fresh_anonymous_install": "passed",
+      "policy_urls_verified": 4,
+      "live_adapter_tests_passed": 4,
+      "live_adapter_tests_total": 4,
+      "source_release_commit": "c4b4678081323fe4842de95ae56562fd5730213f",
+      "verification_commit": "1ac99828c6b12d83f8e77e664ab129f2857316c0",
+      "installation_evidence": "https://github.com/samihalawa/boe-impact/blob/main/evidence/public-installation.json"
+    },
+    {
+      "name": "borme-intelligence",
+      "version": "0.1.2",
+      "repository": "https://github.com/samihalawa/borme-intelligence",
+      "strict_manifest_validation": "passed",
+      "fresh_anonymous_install": "passed",
+      "policy_urls_verified": 4,
+      "live_adapter_tests_passed": 1,
+      "live_adapter_tests_total": 1,
+      "source_release_commit": "7733d26a49d6e1c57a3b8c11f57a5da680ba2ac7",
+      "verification_commit": "66d842cdb20a140e78990ec8cc49d2048abb81f7",
+      "installation_evidence": "https://github.com/samihalawa/borme-intelligence/blob/main/evidence/public-installation.json"
+    },
+    {
+      "name": "catastro-pro",
+      "version": "0.1.2",
+      "repository": "https://github.com/samihalawa/catastro-pro",
+      "strict_manifest_validation": "passed",
+      "fresh_anonymous_install": "passed",
+      "policy_urls_verified": 4,
+      "live_adapter_tests_passed": 2,
+      "live_adapter_tests_total": 2,
+      "source_release_commit": "d399f39246d74409c555f0c05b079ebf66831c39",
+      "verification_commit": "c6f58c513ed7fd2055b8487a13360498e7015e52",
+      "installation_evidence": "https://github.com/samihalawa/catastro-pro/blob/main/evidence/public-installation.json"
+    },
+    {
+      "name": "ine-evidence",
+      "version": "0.1.2",
+      "repository": "https://github.com/samihalawa/ine-evidence",
+      "strict_manifest_validation": "passed",
+      "fresh_anonymous_install": "passed",
+      "policy_urls_verified": 4,
+      "live_adapter_tests_passed": 4,
+      "live_adapter_tests_total": 4,
+      "source_release_commit": "6399aec621ccf8ebee9fac58e6058820311fb4fc",
+      "verification_commit": "db552f4ce91d1808de439e668178b6b4aeb2eeeb",
+      "installation_evidence": "https://github.com/samihalawa/ine-evidence/blob/main/evidence/public-installation.json"
+    },
+    {
+      "name": "spain-open-data",
+      "version": "0.1.2",
+      "repository": "https://github.com/samihalawa/spain-open-data",
+      "strict_manifest_validation": "passed",
+      "fresh_anonymous_install": "passed",
+      "policy_urls_verified": 4,
+      "live_adapter_tests_passed": 2,
+      "live_adapter_tests_total": 2,
+      "source_release_commit": "3e4fe303180a582a0dca1bf1c703c1cc27ed3e6d",
+      "verification_commit": "cdbde1913da3b3fb8cbaf2592dd6356d7bfc8b27",
+      "installation_evidence": "https://github.com/samihalawa/spain-open-data/blob/main/evidence/public-installation.json"
+    }
+  ],
+  "shared_catalog_test": [
+    {
+      "command": "claude plugin marketplace add https://github.com/samihalawa/plugin-marketplace.git",
+      "exit_code": 0,
+      "output": "Adding marketplace…Refreshing marketplace cache (timeout: 120s)…\nCloning repository (timeout: 120s): https://github.com/samihalawa/plugin-marketplace.git\nClone complete, validating marketplace…\nCleaning up old marketplace cache…\n✔ Successfully added marketplace: sami-spain-assistants (declared in user settings)\n"
+    },
+    {
+      "command": "claude plugin install licita-espana@sami-spain-assistants",
+      "exit_code": 0,
+      "output": "Installing plugin \"licita-espana@sami-spain-assistants\"...✔ Successfully installed plugin: licita-espana@sami-spain-assistants (scope: user)\nSSH not configured, cloning via HTTPS: https://github.com/samihalawa/licita-espana.git\n"
+    },
+    {
+      "command": "claude plugin install ayudas-espana@sami-spain-assistants",
+      "exit_code": 0,
+      "output": "Installing plugin \"ayudas-espana@sami-spain-assistants\"...✔ Successfully installed plugin: ayudas-espana@sami-spain-assistants (scope: user)\nSSH not configured, cloning via HTTPS: https://github.com/samihalawa/ayudas-espana.git\n"
+    },
+    {
+      "command": "claude plugin install boe-impact@sami-spain-assistants",
+      "exit_code": 0,
+      "output": "Installing plugin \"boe-impact@sami-spain-assistants\"...✔ Successfully installed plugin: boe-impact@sami-spain-assistants (scope: user)\nSSH not configured, cloning via HTTPS: https://github.com/samihalawa/boe-impact.git\n"
+    },
+    {
+      "command": "claude plugin install borme-intelligence@sami-spain-assistants",
+      "exit_code": 0,
+      "output": "Installing plugin \"borme-intelligence@sami-spain-assistants\"...✔ Successfully installed plugin: borme-intelligence@sami-spain-assistants (scope: user)\nSSH not configured, cloning via HTTPS: https://github.com/samihalawa/borme-intelligence.git\n"
+    },
+    {
+      "command": "claude plugin install catastro-pro@sami-spain-assistants",
+      "exit_code": 0,
+      "output": "Installing plugin \"catastro-pro@sami-spain-assistants\"...✔ Successfully installed plugin: catastro-pro@sami-spain-assistants (scope: user)\nSSH not configured, cloning via HTTPS: https://github.com/samihalawa/catastro-pro.git\n"
+    },
+    {
+      "command": "claude plugin install ine-evidence@sami-spain-assistants",
+      "exit_code": 0,
+      "output": "Installing plugin \"ine-evidence@sami-spain-assistants\"...✔ Successfully installed plugin: ine-evidence@sami-spain-assistants (scope: user)\nSSH not configured, cloning via HTTPS: https://github.com/samihalawa/ine-evidence.git\n"
+    },
+    {
+      "command": "claude plugin install spain-open-data@sami-spain-assistants",
+      "exit_code": 0,
+      "output": "Installing plugin \"spain-open-data@sami-spain-assistants\"...✔ Successfully installed plugin: spain-open-data@sami-spain-assistants (scope: user)\nSSH not configured, cloning via HTTPS: https://github.com/samihalawa/spain-open-data.git\n"
+    },
+    {
+      "command": "claude plugin list",
+      "exit_code": 0,
+      "output": "Installed plugins:\n\n  ❯ ayudas-espana@sami-spain-assistants\n    Version: 0.1.2\n    Scope: user\n    Status: ✔ enabled\n\n  ❯ boe-impact@sami-spain-assistants\n    Version: 0.1.2\n    Scope: user\n    Status: ✔ enabled\n\n  ❯ borme-intelligence@sami-spain-assistants\n    Version: 0.1.2\n    Scope: user\n    Status: ✔ enabled\n\n  ❯ catastro-pro@sami-spain-assistants\n    Version: 0.1.2\n    Scope: user\n    Status: ✔ enabled\n\n  ❯ ine-evidence@sami-spain-assistants\n    Version: 0.1.2\n    Scope: user\n    Status: ✔ enabled\n\n  ❯ licita-espana@sami-spain-assistants\n    Version: 0.1.2\n    Scope: user\n    Status: ✔ enabled\n\n  ❯ spain-open-data@sami-spain-assistants\n    Version: 0.1.2\n    Scope: user\n    Status: ✔ enabled\n\n"
+    }
+  ]
+}
