@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Seven independent Spanish official-data skills plugins by Sami Halawa.",
-    "version": "0.1.2"
+    "version": "0.2.0"
   },
   "plugins": [
     {
@@ -14,70 +14,77 @@
       "source": {
         "source": "github",
         "repo": "samihalawa/licita-espana",
-        "ref": "v0.1.2",
-        "sha": "e4fa9b5ee489881a709a2c4b3af993518b44ab4e"
+        "ref": "v0.2.0",
+        "sha": "21b5a4224ac9147866f53d17d13eaba772fc7c1e"
       },
-      "description": "Turn a Spanish public tender into a traceable opportunity brief and a clause-by-clause qualification checklist."
+      "description": "Encuentra licitaciones y convierte sus pliegos en una decisión documentada: requisitos, plazos y próximos pasos.",
+      "version": "0.2.0"
     },
     {
       "name": "ayudas-espana",
       "source": {
         "source": "github",
         "repo": "samihalawa/ayudas-espana",
-        "ref": "v0.1.2",
-        "sha": "b8425e73e81e3112b7d23a44f54eb9dbb7d3e596"
+        "ref": "v0.2.0",
+        "sha": "f3265f9ddde2e953f46e5b8e5f3612f38b7624a7"
       },
-      "description": "Find Spanish grant calls and separate potentially relevant funding from closed calls, direct awards and unsupported eligibility claims."
+      "description": "Explora ayudas de BDNS, comprueba fechas y beneficiarios y distingue convocatorias de posibles concesiones directas.",
+      "version": "0.2.0"
     },
     {
       "name": "boe-impact",
       "source": {
         "source": "github",
         "repo": "samihalawa/boe-impact",
-        "ref": "v0.1.2",
-        "sha": "c4b4678081323fe4842de95ae56562fd5730213f"
+        "ref": "v0.2.0",
+        "sha": "d8de556b61dcbf03115d9f036d2dd596ac9b1bfe"
       },
-      "description": "Show what changed in a Spanish legal text, with article-level source evidence and clearly separated practical implications."
+      "description": "Compara artículos del BOE entre dos fechas y separa el cambio textual de sus posibles implicaciones prácticas.",
+      "version": "0.2.0"
     },
     {
       "name": "borme-intelligence",
       "source": {
         "source": "github",
         "repo": "samihalawa/borme-intelligence",
-        "ref": "v0.1.2",
-        "sha": "7733d26a49d6e1c57a3b8c11f57a5da680ba2ac7"
+        "ref": "v0.2.0",
+        "sha": "23deda17b1fcc556def0480019747c49a88d5a80"
       },
-      "description": "Find a company’s published registry acts in a specified BORME issue and turn them into a source-linked corporate-events brief."
+      "description": "Consulta actos de una sociedad en el BORME por provincia y fecha, con rangos de hasta siete días y fuentes verificables.",
+      "version": "0.2.0"
     },
     {
       "name": "catastro-pro",
       "source": {
         "source": "github",
         "repo": "samihalawa/catastro-pro",
-        "ref": "v0.1.2",
-        "sha": "d399f39246d74409c555f0c05b079ebf66831c39"
+        "ref": "v0.2.0",
+        "sha": "c4e226d8155901fbef1b2daaa7cff93baabf3279"
       },
-      "description": "Turn a cadastral reference into a clear non-protected property fact sheet without confusing Catastro with title or planning permission."
+      "description": "Convierte una referencia catastral en una ficha con superficies, uso, construcción y coordenadas claramente identificadas.",
+      "version": "0.2.0"
     },
     {
       "name": "ine-evidence",
       "source": {
         "source": "github",
         "repo": "samihalawa/ine-evidence",
-        "ref": "v0.1.2",
-        "sha": "6399aec621ccf8ebee9fac58e6058820311fb4fc"
+        "ref": "v0.2.0",
+        "sha": "a2db6b9a8afe80a5187e1fc09f786728277fc868"
       },
-      "description": "Find the correct INE series and answer with its values, definitions, dates and limitations intact."
+      "description": "Encuentra series del INE y presenta sus cifras con periodo, unidad, definición y límites de comparación.",
+      "version": "0.2.0"
     },
     {
       "name": "spain-open-data",
       "source": {
         "source": "github",
         "repo": "samihalawa/spain-open-data",
-        "ref": "v0.1.2",
-        "sha": "3e4fe303180a582a0dca1bf1c703c1cc27ed3e6d"
+        "ref": "v0.2.0",
+        "sha": "f99f5c29f3f5f5bcf20a80423cb8f72970db8c68"
       },
-      "description": "Find a reusable Spanish public dataset and explain its publisher, licence, freshness and practical download options."
+      "description": "Encuentra datasets españoles y compara publicador, formatos, licencia y fecha antes de integrarlos en tu trabajo.",
+      "version": "0.2.0"
     }
   ]
 }
