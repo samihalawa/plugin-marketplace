@@ -494,10 +494,10 @@
       "source": {
         "source": "url",
         "url": "https://github.com/AgentsAILtd/magicinterview-plugin.git",
-        "sha": "c33bd79590a371f19b9cc589f990966fdb055cd2"
+        "sha": "9aff13ec43109136ae4c7f195b652c1701b47f9b"
       },
       "homepage": "https://magicinterview.ai",
-      "version": "1.4.3",
+      "version": "1.4.4",
       "author": {
         "name": "MagicInterview"
       },
