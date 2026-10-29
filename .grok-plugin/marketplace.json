@@ -473,6 +473,25 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "spain-open-data",
+      "description": "Encuentra datasets españoles y compara publicador, formatos, licencia y fecha antes de integrarlos en tu trabajo.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/samihalawa/spain-open-data.git",
+        "sha": "c2430ee805d3ec0396965a6ccecdc62fa726dc16"
+      },
+      "homepage": "https://github.com/samihalawa/spain-open-data",
+      "keywords": [
+        "spain-open-data"
+      ],
+      "version": "0.3.0",
+      "author": {
+        "name": "Sami Halawa",
+        "email": "sami@samihalawa.com"
+      }
     }
   ]
 }
