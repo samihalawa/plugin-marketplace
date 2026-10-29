@@ -473,6 +473,25 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "ine-evidence",
+      "description": "Encuentra series del INE y presenta sus cifras con periodo, unidad, definición y límites de comparación.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/samihalawa/ine-evidence.git",
+        "sha": "f08292e39c04b2ffdf843b6e4d5e125558943420"
+      },
+      "homepage": "https://github.com/samihalawa/ine-evidence",
+      "keywords": [
+        "ine-evidence"
+      ],
+      "version": "0.3.0",
+      "author": {
+        "name": "Sami Halawa",
+        "email": "sami@samihalawa.com"
+      }
     }
   ]
 }
