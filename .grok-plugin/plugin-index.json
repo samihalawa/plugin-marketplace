@@ -75,6 +75,18 @@
         ]
       }
     },
+    "boe-impact": {
+      "sha": "bd555934695e9189f26a4445ad607111a5cce95a",
+      "version": "0.3.0",
+      "components": {
+        "skills": [
+          {
+            "name": "boe-impact",
+            "description": "Use for Compara artículos del BOE entre dos fechas y separa el cambio textual de sus posibles implicaciones prácticas.…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "264716fe9f4e24557e20d27ec6debef34d7387f1",
       "version": "0.1.1",
