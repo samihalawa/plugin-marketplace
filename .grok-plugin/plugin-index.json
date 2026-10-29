@@ -110,6 +110,18 @@
         ]
       }
     },
+    "catastro-pro": {
+      "sha": "3fcdf87d64428dab305289f308ace74cacce3f2c",
+      "version": "0.3.0",
+      "components": {
+        "skills": [
+          {
+            "name": "catastro-pro",
+            "description": "Use for Convierte una referencia catastral en una ficha con superficies, uso, construcción y coordenadas claramente ide…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "af2834411a564d366f9cab63efb046d9084f4dba",
       "version": "1.12.0",

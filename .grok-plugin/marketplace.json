@@ -473,6 +473,25 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "catastro-pro",
+      "description": "Convierte una referencia catastral en una ficha con superficies, uso, construcción y coordenadas claramente identificadas.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/samihalawa/catastro-pro.git",
+        "sha": "3fcdf87d64428dab305289f308ace74cacce3f2c"
+      },
+      "homepage": "https://github.com/samihalawa/catastro-pro",
+      "keywords": [
+        "catastro-pro"
+      ],
+      "version": "0.3.0",
+      "author": {
+        "name": "Sami Halawa",
+        "email": "sami@samihalawa.com"
+      }
     }
   ]
 }
