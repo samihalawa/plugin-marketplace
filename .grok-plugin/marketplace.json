@@ -473,6 +473,25 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "ayudas-espana",
+      "description": "Explora ayudas de BDNS, comprueba fechas y beneficiarios y distingue convocatorias de posibles concesiones directas.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/samihalawa/ayudas-espana.git",
+        "sha": "18ad8c53291ca68a724baf31c00f5976d0a0507e"
+      },
+      "homepage": "https://github.com/samihalawa/ayudas-espana",
+      "keywords": [
+        "ayudas-espana"
+      ],
+      "version": "0.3.0",
+      "author": {
+        "name": "Sami Halawa",
+        "email": "sami@samihalawa.com"
+      }
     }
   ]
 }
