@@ -473,6 +473,25 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "borme-intelligence",
+      "description": "Consulta actos de una sociedad en el BORME por provincia y fecha, con rangos de hasta siete días y fuentes verificables.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/samihalawa/borme-intelligence.git",
+        "sha": "a8fb7eca027426088592b49a4f93ed8a3961cda1"
+      },
+      "homepage": "https://github.com/samihalawa/borme-intelligence",
+      "keywords": [
+        "borme-intelligence"
+      ],
+      "version": "0.3.0",
+      "author": {
+        "name": "Sami Halawa",
+        "email": "sami@samihalawa.com"
+      }
     }
   ]
 }

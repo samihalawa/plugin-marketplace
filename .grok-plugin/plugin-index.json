@@ -75,6 +75,18 @@
         ]
       }
     },
+    "borme-intelligence": {
+      "sha": "a8fb7eca027426088592b49a4f93ed8a3961cda1",
+      "version": "0.3.0",
+      "components": {
+        "skills": [
+          {
+            "name": "borme-intelligence",
+            "description": "Use for Consulta actos de una sociedad en el BORME por provincia y fecha, con rangos de hasta siete días y fuentes veri…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "264716fe9f4e24557e20d27ec6debef34d7387f1",
       "version": "0.1.1",
